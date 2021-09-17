@@ -27,7 +27,7 @@ jobs:
       run: ls ./themes -la
 
     - name: ls themes/owasp
-        run: ls ./themes/owasp -la
+      run: ls ./themes/owasp -la
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
