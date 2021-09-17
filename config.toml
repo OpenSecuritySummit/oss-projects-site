@@ -1,0 +1,11 @@
+#baseurl                 = "https://open-security-summit.org/"
+title                   = "Open Security Summit - Projects"
+theme                   = "oss-owasp"
+languageCode            = "en-us"
+defaultContentLanguage  = "en"
+googleAnalytics         = "UA-97001849-2"
+enableGitInfo           = true
+preserveTaxonomyNames   = true
+pluralizelisttitles     = false
+
+paginate = 10
