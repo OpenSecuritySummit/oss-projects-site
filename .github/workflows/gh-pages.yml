@@ -23,8 +23,11 @@ jobs:
     - name: Build
       run: hugo --gc --minify --cleanDestinationDir
 
-    - name: ls public
-      run: ls ./public -la
+    - name: ls themes
+      run: ls ./themes -la
+
+    - name: ls themes/owasp
+        run: ls ./themes/owasp -la
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
